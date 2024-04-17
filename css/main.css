@@ -6,6 +6,14 @@ body {
     width: 100vw;
     font-family: "Open Sans", sans-serif;
 }
+.wrapper{
+    max-width: 1440px;
+    min-height: 100%;
+    margin: 0 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 .general-width {
     width: 80vw;
     margin-left: 10vw;
