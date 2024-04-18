@@ -41,7 +41,7 @@ ul, ol {
 /*---------------------Четвертая часть-------------------*/
 .news>.general-width{
     height: 100vh;
-    padding: 152px 0 141px 0;
+    /*padding: 152px 0 141px 0;*/
     text-align: center;
 }
 .box-news{
