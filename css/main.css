@@ -257,7 +257,7 @@ ul, ol {
 
 /*---------------------Первая часть----------------------*/
 /*---------------------Вторая часть----------------------*/
-.gallery>.general-width{ /*в браузере без вложенности не работает*/
+.main-gallery{ /*в браузере без вложенности не работает*/
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -266,9 +266,7 @@ ul, ol {
 }
 .one{
     color: #000;
-
     text-align: center;
-
     /*font-family: "Josefin Sans", sans-serif;*//*h1*/
     font-optical-sizing: auto;
     /* Subtitle / Base */
@@ -299,17 +297,14 @@ ul, ol {
 .images{
     /* width: 1440px;
      height: 650px;*/
-
     flex-shrink: 0;
     width:100vw;
     padding:20px;
     margin: 35px 0;
-
     display:flex;
     justify-content:center;
     align-content: center;
     flex-wrap:wrap;
-
     gap: 30px;
 }
 img{
@@ -322,10 +317,9 @@ img{
     margin:2px;
 
 }
-.three>a{
+.three{
     /*text-decoration: none;*//*a*/
     color: #FF4B32;
-
     text-align: center;
     /*font-family: "Open Sans", sans-serif;*//*class body*/
     font-size: 18px;
