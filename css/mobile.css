@@ -1,3 +1,4 @@
+@media screen and (max-width:600px)
 /*------------------------header-------------------------*/
 
 
@@ -7,6 +8,24 @@
 
 /*---------------------Первая часть----------------------*/
 /*---------------------Вторая часть----------------------*/
+.one{
+    width:100vw;
+    text-align: center;
+}
+.two{
+    width:100vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.images{
+    display:flex;
+    flex-direction: column;
+
+}
+.images>img{
+    width:72vw;
+}
 
 
 /*---------------------Вторая часть----------------------*/
