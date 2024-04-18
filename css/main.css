@@ -31,8 +31,6 @@ a {
 ul, ol {
     list-style-type: none;
 }
-
-
 /*------------------------header-------------------------*/
 .link:hover,
 .link:focus {
@@ -297,6 +295,7 @@ ul, ol {
 /*---------------------Четвертая часть-------------------*/
 .news>.general-width{
     height: 100vh;
+    padding: 152px 0 141px 0;
     text-align: center;
 }
 .box-news{
@@ -327,12 +326,12 @@ ul, ol {
 .inner-box:nth-child(2){
     margin-right: 30px;
 }
-.inner-box>.text-box{
+.text-box{
     width: 25vw;
     height: 23vh;
     text-align: left;
 }
-.news>.general-width>h2{
+.h2-news{
     color: #000;
     font-size: 43px;
     font-style: normal;
@@ -340,7 +339,7 @@ ul, ol {
     line-height: 130%;
     margin-bottom: 20px;
 }
-.news>.general-width>p{
+.p-news{
     color: #000;
     text-align: center;
     font-size: 18px;
@@ -349,7 +348,7 @@ ul, ol {
     line-height: 160%;
     margin-bottom: 60px;
 }
-.inner-box>.text-box>h3{
+.h3-text-box{
     color: #000;
     font-size: 32px;
     font-style: normal;
@@ -357,7 +356,7 @@ ul, ol {
     line-height: 130%;
     margin: 30px 0 10px 30px;
 }
-.inner-box>.text-box>p{
+.p-text-box{
     color: #000;
     font-size: 16px;
     font-style: normal;
@@ -365,7 +364,7 @@ ul, ol {
     line-height: 160%;
     margin: 0 30px 20px 30px;
 }
-.inner-box>.text-box>a{
+.a-text-box{
     color: #FF4B32;
     font-size: 16px;
     font-style: normal;
