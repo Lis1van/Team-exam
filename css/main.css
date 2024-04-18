@@ -9,7 +9,6 @@ body {
 .general-width {
     width: 80vw;
     margin-left: 10vw;
-    /*margin-right: 10vw;*/
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Josefin Sans", sans-serif;
