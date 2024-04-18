@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    width: 100vw;
+    /*width: 100vw;*/
     font-family: "Open Sans", sans-serif;
 }
 .wrapper{
@@ -44,7 +44,6 @@ ul, ol {
     position: absolute;
     left: 0;
     right: 0;
-
     margin-top: 38px;
 }
 
@@ -59,11 +58,9 @@ ul, ol {
     display: flex;
     align-items: center;
     gap: 10px;
-
     font-size: 1.5em;
     font-weight: 700;
     line-height: 1.3;
-
     color: #FF4B32;
 }
 
@@ -86,7 +83,6 @@ ul, ol {
 .menu-link {
     font-size: 1.125em;
     line-height: 1.6;
-
     opacity: 0.6;
     color: #fff;
 }
@@ -94,10 +90,8 @@ ul, ol {
 .menu-link:hover,
 .menu-link:focus {
     font-weight: 700;
-
     opacity: 1;
     color: #FF4B32;
-
     transition: font-weight 0.25s,
     color 0.25s,
     opacity 0.25s;
@@ -106,10 +100,8 @@ ul, ol {
 /*----------HERO SECTION----------*/
 .hero {
     max-height: 46vh;
-
     padding-top: 15vw;
     padding-bottom: 10vw;
-
     background-image: url(/img/image/bg-header.png);
     background-color: #000;
     background-size: contain;
@@ -133,9 +125,7 @@ ul, ol {
     /*font-size: 3.625em;*/
     font-weight: 500;
     line-height: 1.2;
-
     margin-bottom: 26px;
-
     color: #fff;
 }
 
@@ -143,9 +133,7 @@ ul, ol {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.6;
-
     margin-bottom: 48px;
-
     opacity: 0.8;
     color: #fff;
 }
@@ -155,13 +143,9 @@ ul, ol {
     font-size: 1.125em;
     font-weight: 600;
     line-height: 1.6;
-
     cursor: pointer;
-
     padding: 16px 35px;
-
     border-radius: 5px;
-
     color: #fff;
     background-color: #FF4B32;
 }
@@ -267,9 +251,7 @@ ul, ol {
 .one{
     color: #000;
     text-align: center;
-    /*font-family: "Josefin Sans", sans-serif;*//*h1*/
     font-optical-sizing: auto;
-    /* Subtitle / Base */
     font-size: 43px;
     font-style: normal;
     font-weight: 600;
@@ -278,25 +260,14 @@ ul, ol {
 .two{
     width: 609px;
     color: #000;
-
-    /*font-family: "Open Sans", sans-serif;*//*class body*/
-    /*font-optical-sizing: auto;*/
-    /*font-variation-settings: "wdth" 100;*/
-
     text-align: center;
-    /*display:flex;*/
-    /*justify-content: center;*/
-
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 28.8px */
-
     opacity: 0.7;
 }
 .images{
-    /* width: 1440px;
-     height: 650px;*/
     flex-shrink: 0;
     width:100vw;
     padding:20px;
@@ -306,16 +277,6 @@ ul, ol {
     align-content: center;
     flex-wrap:wrap;
     gap: 30px;
-}
-img{
-    /*width: 1440px;
-    height: 650px;*/
-    /*width: 362px;*/
-    /*height: 330px;*/
-    flex-shrink: 0;
-    width:25vw;
-    margin:2px;
-
 }
 .three{
     /*text-decoration: none;*//*a*/
