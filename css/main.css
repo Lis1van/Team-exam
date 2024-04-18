@@ -38,7 +38,7 @@ ul, ol {
     align-items: center;
     /*margin:85px;*/
 }
-.one{
+.h1-gallery{
     color: #000;
 
     text-align: center;
@@ -52,7 +52,7 @@ ul, ol {
     line-height: 130%; /* 55.9px */
 
 }
-.two{
+.p-gallery{
     width: 609px;
     color: #000;
 
@@ -97,7 +97,7 @@ img{
     margin:2px;
 
 }
-.three>a{
+.a-gallery{
     /*text-decoration: none;*//*a*/
     color: #FF4B32;
 
@@ -107,6 +107,9 @@ img{
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 27px */
+}
+.a-gallery:hover{
+    color: saddlebrown;
 }
 
 /*---------------------Вторая часть----------------------*/
