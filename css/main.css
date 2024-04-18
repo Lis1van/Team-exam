@@ -42,9 +42,9 @@ ul, ol {
 body{
     margin: 0;
 }
-.news{
+.news>.general-width{
     height: 100vh;
-    padding: 152px 147px 141px 147px;
+    padding: 152px 0 141px 0;
     text-align: center;
 }
 .box-news{
@@ -80,19 +80,17 @@ body{
     height: 23vh;
     text-align: left;
 }
-.news>h2{
+.news>.general-width>h2{
     color: #000;
-    font-family: "Josefin Sans", sans-serif;
     font-size: 43px;
     font-style: normal;
     font-weight: 600;
     line-height: 130%;
     margin-bottom: 20px;
 }
-.news>p{
+.news>.general-width>p{
     color: #000;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -101,7 +99,6 @@ body{
 }
 .inner-box>.text-box>h3{
     color: #000;
-    font-family: "Josefin Sans", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -110,17 +107,15 @@ body{
 }
 .inner-box>.text-box>p{
     color: #000;
-    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
-    margin: 0 0 20px 30px;
+    margin: 0 30px 20px 30px;
 }
 .inner-box>.text-box>a{
     text-decoration: none;
     color: #FF4B32;
-    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
