@@ -228,14 +228,13 @@ ul, ol {
 
 /*---------------------Первая часть----------------------*/
 /*---------------------Вторая часть----------------------*/
-.main-gallery{
-    max-width: 1146px;
+.main-gallery{ /*в браузере без вложенности не работает*/
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.one{
+.h1-gallery{
     color: #000;
     text-align: center;
     font-optical-sizing: auto;
@@ -244,7 +243,7 @@ ul, ol {
     font-weight: 600;
     line-height: 130%;
 }
-.two{
+.p-gallery{
     width: 609px;
     color: #000;
     text-align: center;
@@ -266,7 +265,18 @@ ul, ol {
     flex-wrap:wrap;
     gap: 30px;
 }
-.three{
+img{
+    /*width: 1440px;
+    height: 650px;*/
+    /*width: 362px;*/
+    /*height: 330px;*/
+    flex-shrink: 0;
+    width:25vw;
+    margin:2px;
+
+}
+.a-gallery{
+    /*text-decoration: none;*//*a*/
     color: #FF4B32;
     text-align: center;
     font-size: 18px;
@@ -274,7 +284,7 @@ ul, ol {
     font-weight: 400;
     line-height: 150%; /* 27px */
 }
-.three:hover{
+.a-gallery:hover{
     color: saddlebrown;
 }
 
