@@ -21,6 +21,7 @@ body {
     /*justify-content: center;*/
     /*align-items: center;*/
     margin-left: 10%;
+    /*margin-right: 10%;*/
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Josefin Sans", sans-serif;
@@ -263,7 +264,8 @@ ul, ol {
 
 /*---------------------Первая часть----------------------*/
 /*---------------------Вторая часть----------------------*/
-.gallery{ /*в браузере без вложенности не работает*/
+.gallery{
+    margin-top: 20vh;
     display:flex;
     flex-direction: column;
     /*justify-content: center;*/
@@ -327,14 +329,12 @@ ul, ol {
 /*---------------------Вторая часть----------------------*/
 /*---------------------Третья часть----------------------*/
 .follow {
+    margin-top: 13vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 43vh;
-
     padding: 100px 0;
-
     background-color: #000;
     background-image: url(/img/image/bg-follow.png);
     background-size: cover;
@@ -422,26 +422,27 @@ ul, ol {
 
 /*---------------------Третья часть----------------------*/
 /*---------------------Четвертая часть-------------------*/
-.news, .main-news {
+.news, .main-news{
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    /*align-content: center;*/
+    /*flex-direction: column;*/
     text-align: center;
     padding: 152px 0 0 0;
 }
 .box-news{
-    max-width: 80vw;;
-    height: 52vh;
+    max-width: 1146px;
+    height: 536px;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    /*justify-content: space-between;*/
+    /*align-content: center;*/
     flex-direction: row;
 }
 .inner-box{
-    width: 25vw;
-    height: 52vh;
+    width: 362px;
+    height: 536px;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
@@ -451,8 +452,8 @@ ul, ol {
     flex-direction: column;
 }
 .inner-box img{
-    width: 25vw;
-    height: 29vh;
+    width: 362px;
+    height: 300px;
     /*gap: 30px;*/
 }
 .inner-box:nth-child(1){
@@ -462,8 +463,8 @@ ul, ol {
     margin-right: 30px;
 }
 .text-box{
-    width: 25vw;
-    height: 23vh;
+    width: 362px;
+    height: 236px;
     text-align: left;
     display: flex;
     justify-content: center;

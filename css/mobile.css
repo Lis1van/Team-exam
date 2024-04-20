@@ -8,24 +8,24 @@
 
 /*---------------------Первая часть----------------------*/
 /*---------------------Вторая часть----------------------*/
-.h1-gallery{
-    width:100vw;
-    text-align: center;
-}
-.p-gallery{
-    width:100vw;
-    text-align: center;
-    padding: 20px;
-}
+/*.h1-gallery{*/
+/*    width:100vw;*/
+/*    text-align: center;*/
+/*}*/
+/*.p-gallery{*/
+/*    width:100vw;*/
+/*    text-align: center;*/
+/*    padding: 20px;*/
+/*}*/
 
-.images{
-    display:flex;
-    flex-direction: column;
+/*.images{*/
+/*    display:flex;*/
+/*    flex-direction: column;*/
 
-}
-.images>img{
-    width:72vw;
-}
+/*}*/
+/*.images>img{*/
+/*    width:72vw;*/
+/*}*/
 
 
 /*---------------------Вторая часть----------------------*/
