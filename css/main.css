@@ -91,7 +91,6 @@ ul, ol {
 .menu-link {
     font-size: 1.125em;
     line-height: 1.6;
-
     opacity: 0.6;
     color: #fff;
 }
@@ -99,10 +98,8 @@ ul, ol {
 .menu-link:hover,
 .menu-link:focus {
     font-weight: 700;
-
     opacity: 1;
     color: #FF4B32;
-
     transition: font-weight 0.25s,
     color 0.25s,
     opacity 0.25s;
@@ -111,10 +108,8 @@ ul, ol {
 /*----------HERO SECTION----------*/
 .hero {
     max-height: 46vh;
-
     padding-top: 15vw;
     padding-bottom: 10vw;
-
     background-image: url(/img/image/bg-header.png);
     background-color: #000;
     background-size: contain;
@@ -125,7 +120,6 @@ ul, ol {
 .hero-inner {
     display: flex;
     flex-direction: column;
-
 }
 
 .hero-content {
@@ -134,13 +128,9 @@ ul, ol {
 
 .hero-title {
     font-size: calc(2.4vw + 24px);
-    /*font-size: calc(24px + (58 - 24) * ((100vw - 375px) / (1920 - 375)));*/
-    /*font-size: 3.625em;*/
     font-weight: 500;
     line-height: 1.2;
-
     margin-bottom: 26px;
-
     color: #fff;
 }
 
@@ -148,9 +138,7 @@ ul, ol {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.6;
-
     margin-bottom: 48px;
-
     opacity: 0.8;
     color: #fff;
 }
@@ -160,13 +148,9 @@ ul, ol {
     font-size: 1.125em;
     font-weight: 600;
     line-height: 1.6;
-
     cursor: pointer;
-
     padding: 16px 35px;
-
     border-radius: 5px;
-
     color: #fff;
     background-color: #FF4B32;
 }
@@ -183,9 +167,7 @@ ul, ol {
 
 /*------------------------header-------------------------*/
 /*---------------------Первая часть----------------------*/
-.offer{
-    /*height: 90vh;*/
-}
+
 .h2-offer{
     margin-top: 10vh;
     color: #000;
@@ -211,7 +193,6 @@ ul, ol {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 .img-offer-left, .img-offer-center, .img-offer-right{
     width: 30%;
@@ -225,7 +206,7 @@ ul, ol {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
 }
 .span-offer-right{
     margin-top: 6vh;
@@ -234,7 +215,7 @@ ul, ol {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
 }
 .h3-offer{
     color: #000;
@@ -242,7 +223,7 @@ ul, ol {
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 130%; /* 41.6px */
+    line-height: 130%;
 }
 .p-img-offer-1{
     margin-top: 4vh;
@@ -251,7 +232,7 @@ ul, ol {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
 }
 .p-img-offer {
     color: #000;
@@ -268,14 +249,9 @@ ul, ol {
     margin-top: 20vh;
     display:flex;
     flex-direction: column;
-    /*justify-content: center;*/
-    /*align-items: center;*/
     text-align: center;
     height: 100vh;
 }
-/*.main-gallery{*/
-/*    text-align: center;*/
-/*}*/
 .h1-gallery{
     color: #000;
     font-optical-sizing: auto;
@@ -296,26 +272,12 @@ ul, ol {
     margin-bottom: 60px;
 }
 .images-box{
-    /*max-width: 1146px;*/
-    /*height: 58vh;*/
     display:flex;
-    /*justify-content:center;*/
-    /*align-content: center;*/
-    /*flex-direction: row;*/
     flex-wrap:wrap;
     margin-bottom: 75px;
     column-gap: 30px;
     row-gap: 30px;
 }
-/*img{*/
-/*    width:25vw;*/
-/*}*/
-/*.big-img{*/
-/*    height: 32vh;*/
-/*}*/
-/*.small-img{*/
-/*    height: 22vh;*/
-/*}*/
 .a-gallery{
     color: #FF4B32;
     font-size: 18px;
@@ -358,9 +320,7 @@ ul, ol {
     font-size: 1.5em;
     font-weight: 600;
     line-height: 1.5;
-
     margin-bottom: 65px ;
-
     color: #ff4b32;
 }
 
@@ -368,9 +328,7 @@ ul, ol {
     font-weight: 600;
     line-height: 1.3;
     text-align: center;
-
     margin-bottom: 60px;
-
     color: #fff;
 }
 
@@ -388,17 +346,14 @@ ul, ol {
     justify-content: center;
     align-items: center;
     gap: 15px;
-
     font-size: 1.5em;
     line-height: 1.5;
-
     color: #fff;
 }
 
 .follow-link:hover,
 .follow-link:focus {
     color: #ff4b32;
-
     transition: color 0.4s;
 }
 
@@ -411,7 +366,6 @@ ul, ol {
 .follow-link-mail:hover path,
 .follow-link-mail:focus path {
     stroke: #ff4b32;
-
     transition: stroke 0.4s;
 }
 
@@ -425,10 +379,7 @@ ul, ol {
 .news, .main-news{
     height: 100vh;
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
-    /*align-content: center;*/
-    /*flex-direction: column;*/
     text-align: center;
     padding: 152px 0 0 0;
 }
@@ -436,8 +387,6 @@ ul, ol {
     max-width: 1146px;
     height: 536px;
     display: flex;
-    /*justify-content: space-between;*/
-    /*align-content: center;*/
     flex-direction: row;
 }
 .inner-box{
@@ -454,7 +403,6 @@ ul, ol {
 .inner-box img{
     width: 362px;
     height: 300px;
-    /*gap: 30px;*/
 }
 .inner-box:nth-child(1){
     margin-right: 30px;
@@ -522,7 +470,6 @@ ul, ol {
 
 .footer {
     min-height: 40vh;
-
     background-color: #0D0402;
     background-image: url(/img/svg/bg-footer.svg);
 }
@@ -535,7 +482,6 @@ ul, ol {
 .footer-wrap {
     display: flex;
     justify-content: space-evenly;
-
     margin-bottom: 70px;
 }
 
@@ -543,7 +489,6 @@ ul, ol {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
     margin-top: 60px;
 }
 
@@ -551,9 +496,7 @@ ul, ol {
     font-size: 1.125rem;
     line-height: 1.6;
     font-weight: 400;
-
     width: 250px;
-
     color: #fff;
 }
 
@@ -561,18 +504,15 @@ ul, ol {
     display: flex;
     align-items: center;
     gap: 10px;
-
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.5;
-
     color: #fff;
 }
 
 .tel:hover svg path,
 .tel:focus svg path {
     fill: #ff4b32;
-
     transition: fill 0.4s;
 }
 
@@ -581,9 +521,7 @@ ul, ol {
     justify-content: space-between;
     flex-direction: column;
     gap: 20px;
-
     width: 165px;
-
     margin-top: 80px;
 }
 
@@ -592,14 +530,12 @@ ul, ol {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.5;
-
     color: #fff;
 }
 
 .footer-link {
     font-size: 1.125rem;
     line-height: 1.5;
-
     color: #fff;
 }
 
@@ -611,7 +547,6 @@ ul, ol {
     display: flex;
     align-items: center;
     gap: 30px;
-
     margin-top: 45px;
 }
 
@@ -619,7 +554,6 @@ ul, ol {
     display: flex;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
 }
 
@@ -628,11 +562,8 @@ ul, ol {
     display: flex;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
-
     background-color: #ff4b32;
-
     transition: background-color 0.4s;
 }
 
@@ -644,7 +575,6 @@ ul, ol {
 .copyright {
     display: flex;
     justify-content: center;
-
     margin-bottom: 50px;
 }
 
